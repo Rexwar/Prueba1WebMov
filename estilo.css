@@ -1,13 +1,13 @@
 body{
-    display: grid;
-    align-items: center;
-    justify-content: space-between;
     padding: 3%;
     background-color: rgb(117, 183, 183);
 }
 .card{
     border-color: blue;
     background-color: rgb(48, 99, 99);
+    padding: 3%;
+    max-width: 60%;
+    scale: 70%;
 }
 
 header{
@@ -17,4 +17,12 @@ header{
 img{
     width: 100px;
     height: 100px;
+}
+
+.product-title{
+    font-size: 15px;
+}
+
+.descripcion{
+    font-size: 10px;
 }
